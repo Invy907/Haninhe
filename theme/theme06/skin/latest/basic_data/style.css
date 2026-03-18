@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* SIR 지운아빠 */
+
+/* 새글 스킨 (latest) */
+.basic_data {
+    margin-top: 0;
+    font-size: 16px;
+    clear: both;
+
+
+
+}
+
+.basic_data div {
+    /*    border-top: 1px #eee solid;*/
+}
+
+.basic_data .subject {
+    /*    line-height: 39px;*/
+}
+
+.basic_data .subject ul {
+/*    padding-left: 15px;*/
+    margin-left: 0;
+    margin: 0;
+}
+
+.basic_data .subject li a {
+    text-decoration: none;
+    color: #525252;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: 'NotoSans', Lato, Nanum Gothic, Tahoma, Geneva, sans-serif;
+
+}
+
+.basic_data .subject li a:hover {
+    color: #000;
+}
+
+.basic_data p.data {
+    float: right !important;
+    right: 0;
+    text-align: right;
+    font-size: 14px;
+    color: #585858;
+    padding: 0;
+    margin: 0;
+    margin-right: 18px;
+    display: none;
+    /*    line-height: 39px;*/
+
+}
+
+@media (max-width: 1200px) {
+    .basic_data p.data {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .basic_data p.data {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .basic_data p.data {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .basic_data p.data {
+        display: none;
+    }
+
+    .basic_data .subject li a {
+        text-decoration: none;
+        color: #525252;
+        font-size: 14px;
+        letter-spacing: -0.5;
+        font-weight: 400;
+        line-height: 28px;
+
+    }
+}

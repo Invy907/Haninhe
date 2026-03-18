@@ -1,0 +1,33 @@
+.owl-carousel .content .box_table {
+    background-color: #fff;
+}
+
+.owl-carousel .content .box_table .content_wrap {
+    padding: 12px 25px;
+}
+
+.owl-carousel .content .box_table .content_wrap h3 {
+    font-family: 'Open Sans', 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    color: #3d3d3d;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.owl-carousel .content .box_table .content_wrap h3 a {
+    text-decoration: none;
+}
+.owl-carousel .content .box_table .content_wrap h3 a:hover {
+    color: #484848;
+    
+}
+.owl-carousel .content .box_table {
+    margin-left: 20px;
+}
+
+.owl-carousel .content .box_table .content_wrap p {
+    font-family: '맑은 고딕', 'Open Sans', sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+    color: #464646;
+    min-height: 70px;
+}

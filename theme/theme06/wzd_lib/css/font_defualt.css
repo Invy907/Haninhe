@@ -1,0 +1,30 @@
+@charset "utf-8";
+html, body {
+	font-size:18px; color:#474747; font-family:'Noto Serif KR','Noto Serif JP', '맑은 고딕',  'Nanum Gothic', 'Malgun Gothic', '돋움', 'Ubuntu', dotum, sans-serif; 
+}
+body a, body .btn {
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+body a:hover, body .btn {  transition:0.5s all;
+ -webkit-transition:0.5s all;
+ -moz-transition:0.5s all;
+ -o-transition:0.5s all;
+ -ms-transition:0.5s all;}
+ 
+.soft {transition:0.5s all;
+ -webkit-transition:0.5s all;
+ -moz-transition:0.5s all;
+ -o-transition:0.5s all;
+ -ms-transition:0.5s all;}
+
+
+div, li, ul, p, dl, dt, dd, h1, h2, h3, h4, h5, h6 {font-family:'Noto Serif KR','Noto Serif JP', '맑은 고딕',  'Nanum Gothic', 'Malgun Gothic', '돋움', 'Ubuntu', dotum, sans-serif; color: #474747; }
+
+@media (max-width: 992px) {
+    div, li, ul, p, dl, dt, dd, h1, h2, h3, h4, h5, h6, th, td {font-family:'Noto Serif KR','Noto Serif JP', '맑은 고딕',  'Nanum Gothic', 'Malgun Gothic', '돋움', 'Ubuntu', dotum, sans-serif; color: #474747; font-size: 13px; }
+
+}

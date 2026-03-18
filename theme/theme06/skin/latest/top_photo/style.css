@@ -1,0 +1,131 @@
+/* Slider */
+
+.slider-gallery .slick-slide {
+    margin: 0px 20px;
+}
+
+.slider-gallery .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slider-gallery .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-gallery .thumb {
+    /*    width: 100%;*/
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.slider-gallery .bottom-subj {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    bottom: 0;
+    z-index: 99999999;
+    display: block;
+    width: 100%;
+    position: absolute;
+    padding: 14px 0 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.slider-gallery .slick-dots {
+    margin-top: 30px;
+    display: block !important;
+    bottom: -35px;
+}
+
+.slider-gallery .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 4px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slider-gallery .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slider-gallery .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 15px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slider-gallery .slick-dots li button:before {
+    opacity: .25;
+    color: #fff;
+}
+
+.slider-gallery .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #fff;
+}
+
+
+@media(min-width:2000px) {
+    .slider-gallery .thumb img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .slider-gallery .bottom-subj {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        bottom: 0;
+        z-index: 99999999;
+        display: block;
+        width: 100%;
+        position: absolute;
+        padding: 10px 0 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .slider-gallery .slick-slide {
+        margin: 0;
+    }
+}

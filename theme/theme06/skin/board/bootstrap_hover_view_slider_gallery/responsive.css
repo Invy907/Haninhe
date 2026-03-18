@@ -1,0 +1,90 @@
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .review-wrap .thumbnail .caption {
+        padding: 0;
+        color: #000;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding: 15px 25px;
+    }
+    .review-wrap .thumbnail img {
+        width: 100%;
+    }
+    .review-wrap .thumbnail .caption a h3 {
+        font-size: 18px;
+        padding-top: 8px;
+    }
+    .review-wrap .row {
+        margin: 0;
+    }
+    .review-wrap .col-half-offset {
+        margin-left: none;
+        padding: 0;
+        margin: 0;
+    }
+    .review-wrap .row .col-xs-6 {
+        padding: 0 4px;
+        margin: 0;
+    }
+    .review-wrap .thumbnail .caption .data_hit_wrap {
+        margin-top: 6px;
+    }
+    .review-wrap .thumbnail .caption .data_hit_wrap .date {
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .review-wrap .thumbnail .caption .data_hit_wrap .hit {
+        font-size: 14px;
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: none;
+    }
+    .review-wrap .thumbnail .caption .data_hit_wrap i {
+        font-weight: 100;
+    }
+}
+
+
+/* 슬라이드 */
+
+@media all and (max-width:768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+    #bo_v_share {
+        border-top: 1px #eee solid;
+    }
+    .spac-table {
+        margin-top: 20px;
+    }
+    #board_product_wrap .content_text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+    .wzd_board_header h1 {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    #bo_v_con {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-right: 0;
+    }
+}
